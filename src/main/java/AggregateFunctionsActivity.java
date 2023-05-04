@@ -33,6 +33,7 @@ import java.sql.*;
  *      - https://www.postgresql.org/docs/9.5/functions-aggregate.html
  */
 public class AggregateFunctionsActivity {
+
 /**
  *   employee table
  *   |  id  |   first_name   |   last_name   |  salary  |
@@ -64,7 +65,6 @@ public class AggregateFunctionsActivity {
         } catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
-
         return average;
     }
 
